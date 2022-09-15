@@ -21,9 +21,9 @@
   "author": "ChrisRol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chrisRol2/"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/chrisRol2/",
+  "homepage": "https://github.com/",
   "dependencies": {
     "dotenv": "^16.0.1"
   },
