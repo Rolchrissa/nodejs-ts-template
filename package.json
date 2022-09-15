@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "App creada",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"crea test pls\"",
+    "dev": "nodemon ./src/main.ts",
+    "lint": "ts-standard",
+    "tsc": "tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "typescript",
+    "nodejs"
+  ],
+  "author": "ChrisRol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisRol2/"
+  },
+  "homepage": "https://github.com/chrisRol2/",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.35",
+    "nodemon": "2.0.16",
+    "ts-node": "10.8.0",
+    "ts-node-dev": "1.1.8",
+    "ts-standard": "11.0.0",
+    "typescript": "4.7.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/config/ts-standard.json"
+    ]
+  }
+}
