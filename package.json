@@ -1,16 +1,14 @@
 {
-  "name": "my-app",
-  "version": "v1.0.2",
-  "description": "App creada",
+  "name": "nodejs-ts-template",
+  "version": "v2.0.0",
+  "description": "Template for Node.js with TypeScript and esbuild",
   "main": "main.js",
   "scripts": {
     "test": "echo \"crea test pls\"",
     "dev": "nodemon ./src/main.ts",
     "lint": "ts-standard",
     "tsc": "tsc",
-    "start": "node build/main.js",
-    "build": "tsc --build tsconfig.json",
-    "build:watch": "tsc --build tsconfig.json --watch"
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,16 +16,17 @@
   },
   "keywords": [
     "typescript",
-    "nodejs"
+    "nodejs",
+    "esbuild"
   ],
-  "author": "Christopher Roldan Sanchez",
+  "author": "ChrisRol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/chrisRol2/"
   },
-  "homepage": "https://github.com/",
+  "homepage": "https://github.com/chrisRol2/",
   "dependencies": {
-    "dotenv": "16.0.1"
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
