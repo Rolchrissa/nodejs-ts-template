@@ -2,6 +2,7 @@
   "name": "nodejs-ts-template",
   "version": "v2.0.0",
   "description": "Template for Node.js with TypeScript and esbuild",
+
   "main": "./src/main.ts",
   "scripts": {
     "test": "echo \"crea test pls\"",
@@ -23,14 +24,14 @@
     "nodejs",
     "esbuild"
   ],
-  "author": "Christopher Roldan Sanchez",
+  "author": "ChrisRol",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rolchrissa/nodejs-ts-template/issues"
   },
   "homepage": "https://github.com/Rolchrissa/nodejs-ts-template",
   "dependencies": {
-    "dotenv": "16.0.1"
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
