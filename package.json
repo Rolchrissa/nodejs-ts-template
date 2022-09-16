@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.0.1",
+  "version": "v1.0.2",
   "description": "App creada",
   "main": "main.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/",
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "16.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
