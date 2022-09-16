@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "nodejs-ts-template",
   "version": "v2.0.0",
-  "description": "App creada",
+  "description": "Template for Node.js with TypeScript and esbuild",
   "main": "main.js",
   "scripts": {
     "test": "echo \"crea test pls\"",
@@ -20,7 +20,8 @@
   },
   "keywords": [
     "typescript",
-    "nodejs"
+    "nodejs",
+    "esbuild"
   ],
   "author": "Christopher Roldan Sanchez",
   "license": "ISC",
