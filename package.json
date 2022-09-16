@@ -11,7 +11,8 @@
     "start": "node build/build/main.js",
     "build": "tsc --build tsconfig.json",
     "build:watch": "tsc --build tsconfig.json --watch",
-    "build:bundle": "tsc --build tsconfig.json && esbuild ./build/build/main.js --bundle --outfile=./build/bundle/main.js --minify --allow-overwrite --platform=node --target=node16"
+    "build:bundle": "tsc --build tsconfig.json && esbuild ./build/build/main.js --bundle --outfile=./build/bundle/main.js --minify --allow-overwrite --platform=node --target=node16",
+    "clean": "make clean"
   },
   "repository": {
     "type": "git",
