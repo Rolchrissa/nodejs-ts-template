@@ -23,14 +23,14 @@
     "nodejs",
     "esbuild"
   ],
-  "author": "Christopher Roldan Sanchez",
+  "author": "ChrisRol",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rolchrissa/nodejs-ts-template/issues"
   },
   "homepage": "https://github.com/Rolchrissa/nodejs-ts-template",
   "dependencies": {
-    "dotenv": "16.0.1"
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
