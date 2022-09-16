@@ -2,7 +2,7 @@
   "name": "nodejs-ts-template",
   "version": "v2.0.0",
   "description": "Template for Node.js with TypeScript and esbuild",
-  "main": "main.js",
+  "main": "./src/main.ts",
   "scripts": {
     "test": "echo \"crea test pls\"",
     "dev": "nodemon ./src/main.ts",
